@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Los Simpsons</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/dona.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+        
+        <!--navegador-->
+        <div class="row" id="nav-home">
+            <div class="fondo-n col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand animate__animated animate__tada" href="#"><img src="assets/logo.simpson.png" alt="logo" width="15%"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown navegador">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <strong class="personajes-nav">Personajes</strong>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item animate__animated animate__pulse" href="#homero"><img src="assets/homero.ico.png" alt="icon">Homero</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item animate__animated animate__pulse" href="#marge"><img src="assets/marge.ico.png" alt="icon">Marge</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item animate__animated animate__pulse" href="#bart-lisa"><img src="assets/bart.ico.png" alt="icon"> Bart</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item animate__animated animate__pulse" href="#bart-lisa"><img src="assets/lisa.ico.png" alt="icon">Lisa</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item animate__animated animate__pulse" href="#maggie"><img src="assets/maggie-ico.png" alt="icon"> Maggie</a></li>
+                                    </ul>
+                            </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                            <button class="btn btn-danger" type="button">Suscribete</button>
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        
+
+
+
+        <div class="audioo">
+          <audio class="audio" controls>
+            <source src="assets/intro.wav" id="audio" autoplay="autoplay" style="background-color: brown;">
+          </audio>
+        </div>
+        
+
+
+        <!--carrusel-->
+        <div class="row row-m " id="carrusel">
+            <div class="fondo-c col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 ">
+                <section class="carrusel">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="assets/1fondo.jpg" class="d-block w-100" alt="imagen-de-los-simpsons"  data-bs-interval="30000">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/2fondo.jpg" class="d-block w-100" alt="imagen-de-los-simpsons"
+                          data-bs-interval="30000">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/3fondo.jpg" class="d-block w-100" alt="imagen-de-los-simpsons"
+                          data-bs-interval="30000">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/4fondo.jpg" class="d-block w-100" alt="imagen-de-los-simpsons"
+                          data-bs-interval="30000">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/5fondo.jpg" class="d-block w-100" alt="imagen-de-los-simpsons"
+                          data-bs-interval="30000">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                     
+                  </section>
+            </div>
+        </div>
+        <div class="line"></div>
+        <!--homero-->
+        <div class="row row-m" id="homero">
+            <div class="fondo-h1 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+                <div class="card animate__animated animate__backInLeft" style="width: 100%;">
+                    <img class="card-img-top" src="assets/homer.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><h1><strong>Homer J. Simpson</strong></h1></p>
+                      <p class="text">Es el padre de la familia protagonista y uno de los personajes centrales.</p> 
+                    </div>
+                </div>
+                
+            </div>
+            <div class="fondo-h2 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+                <div class="card animate__animated animate__backInRight" style="width: 100%;"><iframe width="100%" height="536" src="https://www.youtube.com/embed/3Z1qpbiyWtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    
+                </div>
+                <aside class="text-center">
+                        <article class="flex">
+                        <h1 class="homero">Personajes</h1>
+                        <button class="button1"><a class="dropdown-item" href="#marge"><img src="assets/marge.ico.png" alt=""></a></button>
+                        </article>
+                </aside>
+            </div>
+        </div>
+
+
+        <div class="line"></div>
+        <!--marge-->
+        <div class="row row-m" id="marge">
+            <div class="fondo-m1 col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <div class="card animate__animated animate__backInLeft" style="width: 100%;"><iframe width="100%" height="315" src="https://www.youtube.com/embed/OLwbG91DDLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <aside class="text-center">
+                  <article class="flex">
+                    <button class="button1"><a class="dropdown-item" href="#homero"><img src="assets/homero.ico.png" alt=""></a></button>
+                    <h1 class="homero">Personajes</h1>
+                    <button class="button1"><a class="dropdown-item" href="#bart-lisa">
+                      <img src="assets/bart.ico.png" alt=""> <img src="assets/lisa.ico.png" alt=""></a></button>
+                  </article>
+                </aside>
+            </div>
+            <div class="fondo-m2 col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <div class="card" style="width: 100%;"> 
+                    <div class="card-body">
+                      <p class="card-text"><h1><strong>Marge Simpson</strong></h1></p>
+                      <p class="text"> 
+                        Marge representa el papel de madre trabajadora, cariñosa, paciente y devota, normalmente despreciada por sus hijos y cuyo marido no la escucha. Por un lado, ella reconoce que este distanciamento de sus hijos es la actitud que se suele adoptar a esa edad, mientras que por otro, intenta inculcarles unos valores y unas perspectivas morales de los cuales Homer hace caso omiso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fondo-m3 col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <div class="card animate__animated animate__backInRight" style="width: 100%;">
+                    <img src="assets/marge.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <!--Lisa y bart-->
+        <div class="row row-m" id="bart-lisa">
+            <div class="fondo-b col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+                <div class="card animate__animated animate__backInLeft" style="width: 100%;">
+                    <img class="card-img-top" src="assets/bartother.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text"><h1><strong>Bartholomew "Bart"</strong></h1></p> 
+                        
+                      <p class="text">
+                        Bart es un niño al que poco le gusta estudiar, pero atiende con regularidad al colegio. Prefiere pasar su tiempo libre fuera de casa, desatendiendo sus tareas escolares, socializándose con sus amigos y planeando bromas o trastadas con su mejor amigo Milhouse o con gamberros más mayores.
+                      </p>  
+                    </div>
+                </div>
+                
+            </div>
+            <div class="fondo-l col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+               
+                <div class="card animate__animated animate__backInRight" style="width: 100%;">
+                    <img class="card-img-top" src="assets/lisaother.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text"><h1><strong>Lisa Marie Simpson</strong></h1></p>
+                        <p class="text">
+                          Lisa es lista, curiosa, ambiciosa, tiene un gran orgullo y un alto ego como se demuestra varios episodios ydemuestra ser el miembro de la familia con más conocimiento intelectual, sobre todo de ámbitos académicos. Lisa valora profundamente su integridad pero es sumamente competitiva con un continuo afán de superarse.
+                        </p> 
+                    </div>
+                </div>
+                <aside class="text-center">
+                    <article class="flex">
+                      <button class="button1"><a class="dropdown-item" href="#marge"><img src="assets/marge.ico.png" alt=""></a></button>
+                      <h1 class="homero">Personajes</h1>
+                      <button class="button1"><a class="dropdown-item" href="#maggie"><img src="assets/maggie-ico.png" alt=""></a></button>
+                    </article>
+                  </aside>
+            </div>
+        </div>
+        <div class="line"></div>
+        <!--maggie-->
+        
+        <div class="row row-m" id="maggie">
+            <div class="fondo-ma col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <div class="card animate__animated animate__backInLeft" style="width: 100%;"><iframe width="100%" height="315" src="https://www.youtube.com/embed/a21SaxrIW-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </div>
+            
+            <div class="fondo-ma col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <div class="card" style="width: 100%;">
+                    <img src="assets/maggie.png" alt="">
+                </div>
+            </div>
+
+            <div class="fondo-ma col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  ">
+                <div class="card animate__animated animate__backInRight" style="width: 100%;">
+                    <div class="card-body">
+                      <p class="card-text"><h1><strong>Margaret "Maggie"</strong></h1></p>
+                      <p class="text"> 
+                        Maggie representa el papel de un bebé desatendido en una familia disfuncional (la Simpson), que ha tenido que desarrollar una forzada autosuficiencia. De todas maneras, como bebé, siente un gran apego por su madre, en contraste con su padre, quién le presta muy poca atención, llegando a olvidar que existe. Esto también refleja los roles domésticos que desempeñan los padres en la familia, anclados en los típicos valores y preceptos patriarcales y occidentales.
+                      </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <footer class="row container" id="footer1">
+        <div class="fondo-f">
+          <img src="assets/sprinfield.png" alt="">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="relative text-center"> 
+            <a href="nav-home" class="home">
+              <img src="assets/donna.png" alt="" width="20%">
+              <h1>Inicio</h1>
+            </a>
+          </div>
+        </div>
+        <div class="iconoss col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="relative text-center"> 
+            <a href="#" class="donna-homer">
+              <img src="assets/tik-tok.png" alt="" width="10%" class="icono-t">
+              <img src="assets/tik-tok.png" alt="" width="10%" class="icono-t">
+              <img src="assets/tik-tok.png" alt="" width="10%" class="icono-t">
+            </a>
+          </div>
+        </div>
+        <div class="copy col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+          <div class="relative text-center"> 
+              <h3 class="copval">Copywiter. Valentina</h3>
+          </div>
+        </div>
+      </footer>
+   
+    </div> 
+      
+    
+    
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
